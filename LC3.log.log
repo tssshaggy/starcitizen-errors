@@ -1,0 +1,37 @@
+{ "t":"2021-05-01 01:06:20.000", "info":{
+ "event": "AUTHENTICATION_AUTO_LOGIN"
+} },
+{ "t":"2021-05-01 01:06:20.001", "info":{
+ "event": "AUTHENTICATION_SUCCESSFUL",
+ "data": {
+  "heapAccountId": {
+   "cookie": "_rsi_device",
+   "key": "X-RSI-Device"
+  }
+ }
+} },
+{ "t":"2021-05-01 01:06:20.007", "info":{
+ "event": "INITIALIZATION_SUCCESSFUL"
+} },
+{ "t":"2021-05-01 01:06:21.914", "info":{
+ "event": "SELECT_GAME_SUCCESSFUL",
+ "data": {
+  "channelId": "LIVE",
+  "gameId": "SC",
+  "platform": "prod"
+ }
+} },
+{ "t":"2021-05-01 01:06:23.121", "info":{
+ "event": "LAUNCH_GAME"
+} },
+{ "t":"2021-05-01 01:06:23.371", "info":{
+ "event": "LAUNCH_GAME_READY",
+ "data": {
+  "channelId": "LIVE",
+  "gameId": "SC",
+  "gameToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvcm9iZXJ0c3NwYWNlaW5kdXN0cmllcy5jb20iLCJpYXQiOjE2MTk4MjM5ODMsImV4cCI6MTYxOTkzMTk4MywianRpIjoibThzYXpnZHppOHRnMCIsInN1YiI6ImdhbWVcL1NDXC9hMWU2ZjFiYTNiOTk2Nzk2YTJjMWUyYTNiZWYzMWZiOTA3YTUyNTA0IiwiYXVkIjoicnNpXC9nYW1lXC9iZWFyZXIiLCJhY2NvdW50X2lkIjoiMjIzNTY3NCIsInBsYXllcl9pZCI6IjI4NTMzNjQ1MTk5MyIsImRpc3BsYXluYW1lIjoiU2hhZ2d5Iiwibmlja25hbWUiOiJUU1MtU2hhZ2d5In0.2pNRUXb_ZfYZdArm5DiKmqjCU-TcoxwZ3LpsP0BtAO0",
+  "platformId": "prod"
+ }
+} },
+{ "t":"2021-05-01 01:06:23.373", "info":"Launching Star Citizen LIVE from (C:\\Games\\SC\\Game\\StarCitizen\\LIVE)" },
+{ "t":"2021-05-01 01:06:58.311", "error":"Star Citizen process exited abnormally (code: 3221225477) : Command failed: C:\\Games\\SC\\Game\\StarCitizen\\LIVE\\Bin64\\StarCitizen.exe -no_login_dialog -no_login_dialog\nQt: Untested Windows version 10.0 detected!\r\n" },
