@@ -37,7 +37,7 @@
  "data": {
   "channelId": "LIVE",
   "gameId": "SC",
-  "gameToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvcm9iZXJ0c3NwYWNlaW5kdXN0cmllcy5jb20iLCJpYXQiOjE2MTk4MjM1MjgsImV4cCI6MTYxOTkzMTUyOCwianRpIjoiZmZ6ZjdnY214emZsdiIsInN1YiI6ImdhbWVcL1NDXC9hMWU2ZjFiYTNiOTk2Nzk2YTJjMWUyYTNiZWYzMWZiOTA3YTUyNTA0IiwiYXVkIjoicnNpXC9nYW1lXC9iZWFyZXIiLCJhY2NvdW50X2lkIjoiMjIzNTY3NCIsInBsYXllcl9pZCI6IjI4NTMzNjQ1MTk5MyIsImRpc3BsYXluYW1lIjoiU2hhZ2d5Iiwibmlja25hbWUiOiJUU1MtU2hhZ2d5In0.xtZWrueYA1pkl908W6qrwM4KIMerAf_yQfRk249uZZU",
+  "gameToken": "***",
   "platformId": "prod"
  }
 } },
