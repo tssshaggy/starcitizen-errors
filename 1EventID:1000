@@ -1,0 +1,35 @@
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Application Error" /> 
+  <EventID Qualifiers="0">1000</EventID> 
+  <Version>0</Version> 
+  <Level>2</Level> 
+  <Task>100</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x80000000000000</Keywords> 
+  <TimeCreated SystemTime="2021-04-30T22:13:40.6520693Z" /> 
+  <EventRecordID>29159</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="0" ThreadID="0" /> 
+  <Channel>Application</Channel> 
+  <Computer>DesktopShaggy</Computer> 
+  <Security /> 
+  </System>
+- <EventData>
+  <Data>StarCitizen.exe</Data> 
+  <Data>3.13.111.60211</Data> 
+  <Data>6086bddf</Data> 
+  <Data>StarCitizen.exe</Data> 
+  <Data>3.13.111.60211</Data> 
+  <Data>6086bddf</Data> 
+  <Data>c0000005</Data> 
+  <Data>0000000000b62db8</Data> 
+  <Data>3ca4</Data> 
+  <Data>01d73e0e123e9759</Data> 
+  <Data>C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe</Data> 
+  <Data>C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe</Data> 
+  <Data>e3570ef2-c84a-43db-b482-ac04389d86b7</Data> 
+  <Data /> 
+  <Data /> 
+  </EventData>
+  </Event>
