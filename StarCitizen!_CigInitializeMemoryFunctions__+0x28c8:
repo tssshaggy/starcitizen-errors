@@ -1,0 +1,198 @@
+
+Microsoft (R) Windows Debugger Version 10.0.21306.1007 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\shagg\AppData\Local\CrashDumps\StarCitizen.exe.7744.dmp]
+User Mini Dump File: Only registers, stack and portions of memory are available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*
+Symbol search path is: srv*
+Executable search path is: 
+Windows 10 Version 19042 MP (12 procs) Free x64
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 19041.1.amd64fre.vb_release.191206-1406
+Machine Name:
+Debug session time: Fri Apr 30 20:57:34.000 2021 (UTC + 2:00)
+System Uptime: 0 days 3:50:13.861
+Process Uptime: 0 days 0:00:34.000
+................................................................
+................................................................
+.....
+Loading unloaded module list
+..........
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr.
+(1e40.4f30): Access violation - code c0000005 (first/second chance not available)
+For analysis of this file, run !analyze -v
+StarCitizen!_CigInitializeMemoryFunctions__+0x28c8:
+00007ff6`84392db8 4a8b3cc8        mov     rdi,qword ptr [rax+r9*8] ds:00000000`00000000=????????????????
+0:001> !analyze -v
+*******************************************************************************
+*                                                                             *
+*                        Exception Analysis                                   *
+*                                                                             *
+*******************************************************************************
+
+*** WARNING: Unable to verify checksum for bink2w64.dll
+*** WARNING: Unable to verify checksum for Tracker.dll
+
+KEY_VALUES_STRING: 1
+
+    Key  : AV.Dereference
+    Value: NullPtr
+
+    Key  : AV.Fault
+    Value: Read
+
+    Key  : Analysis.CPU.mSec
+    Value: 6109
+
+    Key  : Analysis.DebugAnalysisManager
+    Value: Create
+
+    Key  : Analysis.Elapsed.mSec
+    Value: 17635
+
+    Key  : Analysis.Init.CPU.mSec
+    Value: 202
+
+    Key  : Analysis.Init.Elapsed.mSec
+    Value: 7200
+
+    Key  : Analysis.Memory.CommitPeak.Mb
+    Value: 434
+
+    Key  : Timeline.OS.Boot.DeltaSec
+    Value: 13813
+
+    Key  : Timeline.Process.Start.DeltaSec
+    Value: 34
+
+    Key  : WER.OS.Branch
+    Value: vb_release
+
+    Key  : WER.OS.Timestamp
+    Value: 2019-12-06T14:06:00Z
+
+    Key  : WER.OS.Version
+    Value: 10.0.19041.1
+
+    Key  : WER.Process.Version
+    Value: 3.13.111.60211
+
+
+NTGLOBALFLAG:  0
+
+APPLICATION_VERIFIER_FLAGS:  0
+
+CONTEXT:  (.ecxr)
+rax=0000000000000000 rbx=0000000000000790 rcx=000002620e830000
+rdx=0000000000000008 rsi=0000000000000790 rdi=0000000000000000
+rip=00007ff684392db8 rsp=000000a4157fd130 rbp=000000a4157fe360
+ r8=00000000000000c0  r9=0000000000000000 r10=0000000000000640
+r11=ff60080880605015 r12=ffffffffffffffff r13=00000266dc9a19e0
+r14=0000000000000001 r15=0000000000000024
+iopl=0         nv up ei pl nz na po nc
+cs=0033  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010204
+StarCitizen!_CigInitializeMemoryFunctions__+0x28c8:
+00007ff6`84392db8 4a8b3cc8        mov     rdi,qword ptr [rax+r9*8] ds:00000000`00000000=????????????????
+Resetting default scope
+
+EXCEPTION_RECORD:  000000a4153fc001 -- (.exr 0xa4153fc001)
+ExceptionAddress: c000007ff6838300
+   ExceptionCode: 00040000
+  ExceptionFlags: ff000000
+NumberParameters: -93963356
+   Parameter[0]: 00000002620e831f
+   Parameter[1]: 0000000000000000
+   Parameter[2]: e0000002620e8300
+   Parameter[3]: 0000007ffa663ba0
+   Parameter[4]: 0000000000000000
+   Parameter[5]: 0000000000000000
+   Parameter[6]: 7000000000000000
+   Parameter[7]: 0000007ffa650410
+   Parameter[8]: 0000000000000000
+   Parameter[9]: 00000002620e7d00
+   Parameter[10]: 4000000000000000
+   Parameter[11]: ff00007ffa663ba4
+   Parameter[12]: 00ffffffffffffff
+   Parameter[13]: 0000007ff4cbc200
+   Parameter[14]: 5000000000000000
+
+PROCESS_NAME:  StarCitizen.exe
+
+READ_ADDRESS:  0000000000000000 
+
+ERROR_CODE: (NTSTATUS) 0xc0000005 - The instruction at 0x%p referenced memory at 0x%p. The memory could not be %s.
+
+EXCEPTION_CODE_STR:  c0000005
+
+EXCEPTION_PARAMETER1:  0000000000000000
+
+EXCEPTION_PARAMETER2:  0000000000000000
+
+STACK_TEXT:  
+000000a4`157fd130 00007ffa`63c0dd3e     : 00000000`00000790 ffffffff`ffffffff 00000000`00000000 00000000`00000000 : StarCitizen!_CigInitializeMemoryFunctions__+0x28c8
+000000a4`157fd160 00007ffa`63c134c9     : 00000000`00000000 000000a4`157fe360 ffffffff`ffffffff 00000000`00000000 : ucrtbase!_calloc_base+0x4e
+000000a4`157fd190 00007ffa`63c12f51     : 000000a4`157fd240 00000000`00000000 00000000`00000000 00000000`00000000 : ucrtbase!_errno+0x89
+000000a4`157fd1c0 00007ff6`8416eccb     : ffffffff`ffffffff 00000268`52230d10 000000a4`157fe268 00000000`00000001 : ucrtbase!common_vsnprintf_s<char>+0x51
+000000a4`157fd200 00007ff6`8412d20c     : 00007ff6`8b51f520 00000000`00000bdc 00000000`000016f3 00000000`0000170b : StarCitizen!InitializeModule_FlowSystem+0x211e6b
+000000a4`157fe260 00007ff6`840f2dc7     : 00007ff6`83830000 00007ff6`840f2ce0 00000000`0d54f000 00000000`037d9000 : StarCitizen!InitializeModule_FlowSystem+0x1d03ac
+000000a4`157fe7b0 00007ffa`63f3b7c7     : 00000000`00000000 00007ff6`840f2ce0 00000000`00000000 00007ffa`00000008 : StarCitizen!InitializeModule_FlowSystem+0x195f67
+000000a4`157fe7f0 00007ffa`662f5170     : 000000a4`157fea30 00007ffa`6639662c 00000000`00000000 000000a4`157fe9c8 : KERNELBASE!UnhandledExceptionFilter+0x1e7
+000000a4`157fe910 00007ffa`662dc776     : 00007ffa`663c2a24 00007ffa`66250000 000000a4`157fea30 00007ffa`66280e7b : ntdll!RtlUserThreadStart$filt$0+0xa2
+000000a4`157fe950 00007ffa`662f207f     : 00000000`00000000 000000a4`157fef30 000000a4`157ff5f0 00000000`00000000 : ntdll!_C_specific_handler+0x96
+000000a4`157fe9c0 00007ffa`662a1454     : 00000000`00000000 000000a4`157fef30 000000a4`157ff5f0 00000000`00000000 : ntdll!RtlpExecuteHandlerForException+0xf
+000000a4`157fe9f0 00007ffa`662f0bae     : 00000262`0e833724 00000262`0e840230 00000000`00030127 00000262`0e840230 : ntdll!RtlDispatchException+0x244
+000000a4`157ff100 00007ff6`84392db8     : 00000000`00000000 00000000`09010008 00000000`00000000 00000000`95006efb : ntdll!KiUserExceptionDispatch+0x2e
+000000a4`157ff830 00007ffa`635d0858     : 00000000`00030127 00000000`00000000 00000000`00000000 00007ffa`662c07db : StarCitizen!_CigInitializeMemoryFunctions__+0x28c8
+000000a4`157ff860 00007ffa`635cc645     : 00000000`00000000 00000262`0e836d80 00000000`00000000 00000000`00000000 : guard64!Exported+0x5c9c8
+000000a4`157ff890 00007ffa`635874d3     : 00000000`00000000 00000262`0e833120 00000262`0e837110 00000262`0e830000 : guard64!Exported+0x587b5
+000000a4`157ff8c0 00007ffa`63589877     : 00007ffa`663ba3f0 00000262`0e836d00 00000000`00000009 00007ffa`662aecf1 : guard64!Exported+0x13643
+000000a4`157ff8f0 00007ffa`662a463e     : 00000000`00000000 00000000`00000000 00000262`0e833120 00000262`0e833120 : guard64!Exported+0x159e7
+000000a4`157ff9b0 00007ffa`662a36e8     : 000000a4`157ffb30 000000a4`00000000 00000262`0e833120 00000262`0e837110 : ntdll!RtlExitUserThread+0x4e
+000000a4`157ff9f0 00007ffa`64e67034     : 00000000`00000000 00000000`00000000 00000000`00000000 00000000`00000000 : ntdll!TppWorkerThread+0xc18
+000000a4`157ffcf0 00007ffa`662a2651     : 00000000`00000000 00000000`00000000 00000000`00000000 00000000`00000000 : kernel32!BaseThreadInitThunk+0x14
+000000a4`157ffd20 00000000`00000000     : 00000000`00000000 00000000`00000000 00000000`00000000 00000000`00000000 : ntdll!RtlUserThreadStart+0x21
+
+
+SYMBOL_NAME:  StarCitizen!_CigInitializeMemoryFunctions__+28c8
+
+MODULE_NAME: StarCitizen
+
+IMAGE_NAME:  StarCitizen.exe
+
+STACK_COMMAND:  ~1s ; .ecxr ; kb
+
+FAILURE_BUCKET_ID:  NULL_POINTER_READ_c0000005_StarCitizen.exe!_CigInitializeMemoryFunctions__
+
+OS_VERSION:  10.0.19041.1
+
+BUILDLAB_STR:  vb_release
+
+OSPLATFORM_TYPE:  x64
+
+OSNAME:  Windows 10
+
+IMAGE_VERSION:  3.13.111.60211
+
+FAILURE_ID_HASH:  {8f14a45a-2e93-ae4c-cc2a-3178980f0d60}
+
+Followup:     MachineOwner
+---------
+
+0:001> .ecxr
+rax=0000000000000000 rbx=0000000000000790 rcx=000002620e830000
+rdx=0000000000000008 rsi=0000000000000790 rdi=0000000000000000
+rip=00007ff684392db8 rsp=000000a4157fd130 rbp=000000a4157fe360
+ r8=00000000000000c0  r9=0000000000000000 r10=0000000000000640
+r11=ff60080880605015 r12=ffffffffffffffff r13=00000266dc9a19e0
+r14=0000000000000001 r15=0000000000000024
+iopl=0         nv up ei pl nz na po nc
+cs=0033  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010204
+StarCitizen!_CigInitializeMemoryFunctions__+0x28c8:
+00007ff6`84392db8 4a8b3cc8        mov     rdi,qword ptr [rax+r9*8] ds:00000000`00000000=????????????????
