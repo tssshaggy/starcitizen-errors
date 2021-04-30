@@ -1,0 +1,188 @@
+BackupNameAttachment=" Build(7334707) 01 May 21 (00 45 52)"  -- used by backup system
+Log started on Sat May  1 00:45:52 2021
+Built on Apr 26 2021 08:17:15
+Running 64 bit version
+Executable: C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe
+FileVersion: 3.13.111.60211
+ProductVersion: 3.13.111.60211
+Using Microsoft (tm) C++ Standard Library implementation
+Host CPU: AMD Ryzen 5 5600X 6-Core Processor
+Logical CPU Count: 12
+[SessionIDManager] local session: 18d690e7-f2d1-46c8-9d28-11a417082d2c
+<2021-04-30T22:45:53.543Z> GameDir: Data
+<2021-04-30T22:45:53.546Z> Windows 10 64 bit (build 10.0.19042)
+<2021-04-30T22:45:53.546Z> System language: English
+<2021-04-30T22:45:53.546Z> Windows Directory: "C:\Windows"
+<2021-04-30T22:45:53.546Z> Local time is 00:45:53 05/01/21, system running for 25 minutes
+<2021-04-30T22:45:53.546Z> 32690MB physical memory installed, 25008MB available, 23 percent of memory in use
+<2021-04-30T22:45:53.547Z> 491MB working set, 734MB commit size (1116MB peak), 53584MB left to commit (65458MB system wide commit limit)
+<2021-04-30T22:45:53.547Z> Current display mode is 2560x1440x32
+<2021-04-30T22:45:53.547Z> IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+<2021-04-30T22:45:53.547Z> [CIG] gEnv->IsDedicated[0] CSystem::m_bDedicatedServer[0] startupParams.bDedicatedServer[0]
+<2021-04-30T22:45:53.547Z> [CIG] startupParams.szSystemCmdLine["C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe" ]
+<2021-04-30T22:45:53.547Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [sys_spec] is marked [Not Whitelisted] with a value of [0]; config file attempting to change to [-1] - IGNORING
+<2021-04-30T22:45:53.548Z> Stream Engine Initialization
+<2021-04-30T22:45:53.548Z> Branch: sc-alpha-3.13.0
+<2021-04-30T22:45:53.548Z> BuildDateStamp: Mon Apr 26 2021
+<2021-04-30T22:45:53.548Z> BuildTimeStamp: 08:41:19 AM CST
+<2021-04-30T22:45:53.548Z> Config: shipping
+<2021-04-30T22:45:53.548Z> Tag: public
+<2021-04-30T22:45:53.548Z> Changelist: 7334707
+<2021-04-30T22:45:53.548Z> ShelveCL: 0
+<2021-04-30T22:45:53.548Z> Video Capture initialization
+<2021-04-30T22:45:53.548Z> CIG Backend initialization
+<2021-04-30T22:45:53.550Z> [CIG] build_version[7334707]
+<2021-04-30T22:45:53.559Z> Physics initialization
+<2021-04-30T22:45:53.559Z> PHYSICS_ENABLE_DEBUG_VALIDATION is enabled
+<2021-04-30T22:45:53.561Z> <Audio>: AudioSystem initialization
+<2021-04-30T22:45:53.790Z> [Audio] Wwise Init : Output Buffer (1024 x 4) : API=Default
+<2021-04-30T22:45:53.815Z> Renderer initialization
+<2021-04-30T22:45:53.820Z> Logging video adapters:
+<2021-04-30T22:45:53.918Z> - NVIDIA GeForce RTX 2080 (vendor = 0x10de, device = 0x1e87)
+<2021-04-30T22:45:53.918Z>   - Adapter index: 0
+<2021-04-30T22:45:53.918Z>   - Dedicated video memory: 8010 MB
+<2021-04-30T22:45:53.919Z>   - Feature level: DX11 (SM 5.0)
+<2021-04-30T22:45:53.919Z>   - Displays connected: yes
+<2021-04-30T22:45:53.919Z>   - Suitable rendering device: yes
+<2021-04-30T22:45:53.937Z> - Microsoft Basic Render Driver (vendor = 0x1414, device = 0x008c)
+<2021-04-30T22:45:53.937Z>   - Adapter index: 1
+<2021-04-30T22:45:53.937Z>   - Dedicated video memory: 0 MB
+<2021-04-30T22:45:53.937Z>   - Feature level: DX11 (SM 5.0)
+<2021-04-30T22:45:53.937Z>   - Displays connected: no
+<2021-04-30T22:45:53.937Z>   - Suitable rendering device: no
+<2021-04-30T22:45:54.511Z> CPU benchmark: 30.78 ms (int+mem), 26.05 ms (fp+mem)
+<2021-04-30T22:45:54.517Z> GPU benchmark: 42.97 ms (Adapter index: 0, Num GPUs: 1)
+<2021-04-30T22:45:54.531Z> Performance Index: 163.45 (CPU), 239.72 (GPU). Took 0.59 seconds.
+<2021-04-30T22:45:54.611Z> D3D Adapter: Vendor = NVIDIA
+<2021-04-30T22:45:54.611Z> D3D Adapter: Description: NVIDIA GeForce RTX 2080
+<2021-04-30T22:45:54.611Z> D3D Adapter: Driver version (UMD): 27.21.14.6627
+<2021-04-30T22:45:54.611Z> D3D Adapter: DriverType = Hardware
+<2021-04-30T22:45:54.611Z> D3D Adapter: FeatureLevel = DirectX 11.0
+<2021-04-30T22:45:54.611Z> D3D Adapter: VendorId = 0x10DE
+<2021-04-30T22:45:54.611Z> D3D Adapter: DeviceId = 0x1E87
+<2021-04-30T22:45:54.611Z> D3D Adapter: SubSysId = 0x865F1043
+<2021-04-30T22:45:54.611Z> D3D Adapter: Revision = 161
+<2021-04-30T22:45:54.611Z> D3D Adapter: DedicatedVidMem = 8010
+<2021-04-30T22:45:54.611Z> D3D Adapter: DedicatedSysMem = 0
+<2021-04-30T22:45:54.611Z> D3D Adapter: SharedSysMem = 16344
+<2021-04-30T22:45:54.611Z> D3D Adapter: GPUCount = 1
+<2021-04-30T22:45:54.614Z> GPU: Architecture = 
+<2021-04-30T22:45:54.614Z> GPU: Compute Core Count = 2944
+<2021-04-30T22:45:54.614Z> GPU: Core Clock MHz = 0
+<2021-04-30T22:45:54.614Z> GPU: Memory Clock MHz = 0
+<2021-04-30T22:45:54.614Z> GPU: Teraflops (Calculated from iCoreClock * iNumCUs * 64 Pixels/clk * 2 instructions/MAD) = 0.000000
+<2021-04-30T22:45:54.614Z> GPU: NVidia-Surround or AMD-Eyefinity = Disabled
+<2021-04-30T22:45:54.617Z> [Aftermath] Initialized.
+<2021-04-30T22:45:54.617Z> Texture Streaming: Fixed memory requirement = 2245. (Includes texture lib size)
+<2021-04-30T22:45:54.617Z> Texture Streaming: Texture lib size = 84
+<2021-04-30T22:45:54.617Z> Texture Streaming: Usable VRAM = 6408
+<2021-04-30T22:45:54.617Z> Texture Streaming: Requested pool size = 4163
+<2021-04-30T22:45:54.617Z> Texture Streaming: Actual pool size = 3000
+<2021-04-30T22:45:54.617Z> Runtime GPU Memory: Committed:    0 MB
+<2021-04-30T22:45:54.617Z> Runtime GPU Memory: Dedicated:    0 MB (All:    0 MB)
+<2021-04-30T22:45:54.617Z> Runtime GPU Memory: Shared:    0 MB (All:    0 MB)
+<2021-04-30T22:45:54.997Z> [Renderer] A display device has been connected to the system
+<2021-04-30T22:45:57.076Z> Font initialization
+<2021-04-30T22:45:57.080Z> Network initialization
+<2021-04-30T22:45:57.091Z> network hostname: DesktopShaggy
+<2021-04-30T22:45:57.091Z>   ip:192.168.1.83
+<2021-04-30T22:45:57.091Z> [Network Version]: RELEASE CLIENT
+<2021-04-30T22:45:57.091Z> Lobby initialization
+<2021-04-30T22:45:57.092Z> MovieSystem initialization
+<2021-04-30T22:45:57.092Z> Console initialization
+<2021-04-30T22:45:57.093Z> Time initialization
+<2021-04-30T22:45:57.093Z> Input initialization
+<2021-04-30T22:45:57.518Z> Initializing Animation System
+<2021-04-30T22:45:57.601Z> Initializing 3D Engine
+<2021-04-30T22:45:57.603Z> Initializing default materials...
+<2021-04-30T22:45:57.678Z> Entity system initialization
+<2021-04-30T22:45:57.683Z> CIG Malestrom initialization
+<2021-04-30T22:45:57.683Z> Initializing AI System
+<2021-04-30T22:45:57.686Z> Floating point exceptions disabled.
+<2021-04-30T22:46:03.520Z> [DataCore] Binary Data Loaded. Total Time took 0.599417s
+<2021-04-30T22:46:03.859Z> [DataCore] Game Post Load. Total Time took 0.339843s
+<2021-04-30T22:46:03.861Z> [DataCore] Game Data Loaded. Game.dcb. Total Time took 0.940599s
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [r_GasCloudStepLengthMultiplier] is marked [Not Whitelisted] with a value of [1]; config file attempting to change to [0.7] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [e_LodMergeLodFaceAreaTargetSize] is marked [Not Whitelisted] with a value of [2]; config file attempting to change to [2.0 // Rendering target size is synched to high spec] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [e_LodMergeLodMin] is marked [Not Whitelisted] with a value of [0]; config file attempting to change to [0 // These LodMerge CVars must be kept in sync with their corresponding CVars. (default option [3] values.)] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [e_LodMergeLodRatio] is marked [Not Whitelisted] with a value of [6]; config file attempting to change to [20 // If any of these CVars ( [e_LodMin, e_LodMax, e_LodRatio, e_LodFaceAreaTargetSize] ) spec value [3] is changed, then the corresponding LodMerge version must also be updated.] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [g_tree_cut_reuse_dist] is marked [Not Whitelisted] with a value of [1024]; config file attempting to change to [0] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [r_RefractionScreenSizeThresholdMultiplier] is marked [Not Whitelisted] with a value of [1]; config file attempting to change to [0.8] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [r_EnvTexUpdateInterval] is marked [Not Whitelisted] with a value of [0.001]; config file attempting to change to [0.05] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [r_FogShadows] is marked [Not Whitelisted] with a value of [0]; config file attempting to change to [1] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [r_ShadowsPoolSize] is marked [Not Whitelisted] with a value of [8192]; config file attempting to change to [8192] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.066Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [e_GsmRange] is marked [Not Whitelisted] with a value of [3]; config file attempting to change to [3] as part of a cvar group - IGNORING
+<2021-04-30T22:46:06.073Z> [GameProfiles]: Successfully activated profile 'default' for user 'shagg'
+<2021-04-30T22:46:06.073Z> username shagg signedIn 1 userIndex 4294967295
+<2021-04-30T22:46:06.073Z> ActivateProfile profileName default
+<2021-04-30T22:46:06.073Z> [Game Version]: RELEASE COMBO BUILD (CLIENT)
+<2021-04-30T22:46:06.096Z> [lobby] Creating socket on port 64090 (service [LAN], socket manager [Select])
+<2021-04-30T22:46:06.096Z> [lobby] Created socket on port 64090
+<2021-04-30T22:46:06.216Z> [ContextSystem] disabling debug traces
+<2021-04-30T22:46:06.220Z> Found 4 audio input devices'
+<2021-04-30T22:46:06.225Z> Found audio input device: ID='{0.0.1.00000000}.{90ce2938-748c-405e-a4c4-a2abe5e15505}' FriendlyName='{0.0.1.00000000}.{90ce2938-748c-405e-a4c4-a2abe5e15505}' state=0x00000008
+<2021-04-30T22:46:06.225Z> Found audio input device: ID='{0.0.1.00000000}.{95728e39-140d-4cfd-bd93-9d7b375da384}' FriendlyName='{0.0.1.00000000}.{95728e39-140d-4cfd-bd93-9d7b375da384}' state=0x00000001
+<2021-04-30T22:46:06.225Z> Found audio input device: ID='{0.0.1.00000000}.{9ce76660-7f24-41bd-862c-4f7ab433e217}' FriendlyName='{0.0.1.00000000}.{9ce76660-7f24-41bd-862c-4f7ab433e217}' state=0x00000002
+<2021-04-30T22:46:06.226Z> Found audio input device: ID='{0.0.1.00000000}.{ec400061-96c1-4aa0-afce-619ca7fa961c}' FriendlyName='{0.0.1.00000000}.{ec400061-96c1-4aa0-afce-619ca7fa961c}' state=0x00000008
+<2021-04-30T22:46:06.226Z> CMicrophoneSelectionOptionBinding::SetChoicesAndValues() displaying 4 values. There are 4 devices
+<2021-04-30T22:46:08.724Z> [Persistence] Initialize: Online Mode
+<2021-04-30T22:46:08.729Z> {SET_CONNECTION_STATE} state [CONNECTING]
+<2021-04-30T22:46:08.861Z> {SET_CONNECTION_STATE} state [CONNECTED]
+<2021-04-30T22:46:10.421Z> {SET_ACCOUNT_STATE} state [kAccountLoginSuccess]
+<2021-04-30T22:46:10.421Z> [CIG-net] [CIG-net] User Login Success - Handle[TSS-Shaggy]
+<2021-04-30T22:46:12.460Z> [CIG-net] [CIG-net] {READY} LoginQueue[0]
+<2021-04-30T22:46:12.460Z> [>] data
+<2021-04-30T22:46:14.635Z> PostInit StarAnimation
+<2021-04-30T22:46:14.720Z> - Connected xinput0
+<2021-04-30T22:46:14.747Z> [>] sync
+<2021-04-30T22:46:16.720Z> [<] data
+<2021-04-30T22:46:16.758Z> [+] [CIG] {data} code[0]
+<2021-04-30T22:46:16.763Z> [+] [CIG] {data-queue} code[1]
+<2021-04-30T22:46:16.866Z> [<] sync
+<2021-04-30T22:46:16.866Z> [CSessionManager::RequestFrontEnd] Started - RequestFrontEndReason="ProcessBootRequest"!
+<2021-04-30T22:46:16.866Z> [CGlobalGameUI::OpenLoadingScreen] Started
+<2021-04-30T22:46:16.866Z> [CGlobalGameUI::OpenLoadingScreen] Request context transition to LoadingScreenView
+<2021-04-30T22:46:16.866Z> [disconnectlight] Game does not exist!
+<2021-04-30T22:46:16.917Z> [CLoadingScreenComponent::Enter]
+<2021-04-30T22:46:17.110Z> [CSessionManager::RequestFrontEnd] Restored!
+<2021-04-30T22:46:18.384Z> Requesting game mode Frontend_Main/SC_Frontend
+<2021-04-30T22:46:18.384Z> Not in megamap: triggering level load
+<2021-04-30T22:46:18.401Z> ============================ Loading level megamap ============================
+<2021-04-30T22:46:18.408Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [p_force_sync] is marked [Not Whitelisted] with a value of [1]; config file attempting to change to [1] - IGNORING
+<2021-04-30T22:46:18.410Z> CIG: listening on port 12300
+<2021-04-30T22:46:18.410Z> [net] connection requested to: <local>:12300
+<2021-04-30T22:46:18.410Z> [net] resolved as: <local>:12300
+<2021-04-30T22:46:18.410Z> [net] CNetChannel::CNetChannel map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={0, 0} session=4294967295 node_id=0 account_id=0 username="" nickname="" displayname="" playerGEID=0 uptime_mins=0.000 
+<2021-04-30T22:46:18.410Z> [net] [bind culling] enabled and set to 1
+<2021-04-30T22:46:18.410Z> [net] CNetChannel::Init map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={0, 0} session=4294967295 node_id=0 account_id=0 username="" nickname="" displayname="" playerGEID=0 uptime_mins=0.000 
+<2021-04-30T22:46:18.410Z> [net] CNetChannel::CNetChannel map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={1, 0} session=4294967295 node_id=1 account_id=0 username="" nickname="" displayname="" playerGEID=0 uptime_mins=0.000 
+<2021-04-30T22:46:18.411Z> [net] CNetChannel::Init map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={1, 0} session=4294967295 node_id=1 account_id=2235674 username="TSS" nickname="TSS-Shaggy" displayname="Shaggy" playerGEID=0 uptime_mins=0.000 
+<2021-04-30T22:46:18.411Z> [net] CNetChannel::ProcessPacket map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={1, 0} session=4294967295 node_id=1 account_id=2235674 username="TSS" nickname="TSS-Shaggy" displayname="Shaggy" playerGEID=0 uptime_mins=0.000 Recv first transport packet. Setting m_bConnectionEstablished
+<2021-04-30T22:46:18.413Z> [net] CNetChannel::ProcessPacket map="megamap" gamerules="SC_Frontend" ip=0.0.0.0 port=0 connection={0, 0} session=4294967295 node_id=0 account_id=0 username="" nickname="" displayname="" playerGEID=0 uptime_mins=0.000 Recv first transport packet. Setting m_bConnectionEstablished
+<2021-04-30T22:46:18.637Z> Level load done, triggering SOC load
+<2021-04-30T22:46:18.647Z> [net] CContextView::ClearAllState: connectionId=[1, 0], numBindBatches=0, numUnbindBatches=0, numUnbinds=0, numStragglerUnbinds=0
+<2021-04-30T22:46:18.647Z> [net] CNetContextState::ChangeSubscription: Remove subscription for connectionId=[1, 0]
+<2021-04-30T22:46:18.650Z> [net] CContextView::ClearAllState: connectionId=[0, 0], numBindBatches=0, numUnbindBatches=0, numUnbinds=0, numStragglerUnbinds=0
+<2021-04-30T22:46:18.650Z> [net] CNetContextState::ChangeSubscription: Remove subscription for connectionId=[0, 0]
+<2021-04-30T22:46:18.683Z> [CSessionManager::OnClientConnected] Connected!
+<2021-04-30T22:46:18.873Z> Player (285336451993) Spawn Location set to 1510935576
+<2021-04-30T22:46:20.510Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::AssignToRoom ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy, Room: outlaw_legacy_armor_medium_helmet_01_01_20_2211369166363, IsHidden: False
+<2021-04-30T22:46:20.511Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::DeferredInitialize EnableComponentUpdate. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy
+<2021-04-30T22:46:20.985Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::OnEntityEvent Room unhidden. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy, Room: outlaw_legacy_armor_medium_helmet_01_01_20_2211369166363
+<2021-04-30T22:46:20.985Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::DeferredInitialize EnableComponentUpdate. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy
+<2021-04-30T22:46:20.996Z> [CSessionManager::OnClientSpawned] Spawned!
+<2021-04-30T22:46:21.004Z> Creating game mode SC_Frontend with object containers:
+<2021-04-30T22:46:21.004Z>  - objectcontainers/sm/fps_loadout.socpak
+<2021-04-30T22:46:21.004Z>  - objectcontainers/frontend/character_selection/character_selection.socpak
+<2021-04-30T22:46:21.004Z> Loading GameMode='SC_Frontend'
+<2021-04-30T22:46:21.006Z> CMicrophoneSelectionOptionBinding::SetChoicesAndValues() displaying 4 values. There are 4 devices
+<2021-04-30T22:46:21.006Z> Game mode created
+<2021-04-30T22:46:21.027Z> [CSessionManager::OnClientSpawned] Spawned!
+<2021-04-30T22:46:21.053Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::OneTimePostUpdate DeferredInitialize. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy
+<2021-04-30T22:46:21.053Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::DeferredInitialize DisableComponentUpdate. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy
+<2021-04-30T22:46:21.072Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::OnEntityEvent Room unhidden. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy, Room: outlaw_legacy_armor_medium_helmet_01_01_20_2211369166363
+<2021-04-30T22:46:21.072Z> [GAS PRODUCER CONSUMER] CSCItemGasProducerConsumer::DeferredInitialize DisableComponentUpdate. ProducerConsumer: cds_undersuit_01_01_20_2197790190127, Entity: TSS-Shaggy
+<2021-04-30T22:46:21.571Z> Loading screen for Frontend_Main : SC_Frontend closed after 4.71 seconds
+<2021-04-30T22:46:21.760Z> [<] data
+<2021-04-30T22:46:21.771Z> [+] [CIG] {data} code[0]
+<2021-04-30T22:46:21.777Z> [+] [CIG] {data-queue} code[1]
