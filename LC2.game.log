@@ -1,0 +1,46 @@
+BackupNameAttachment=" Build(7334707) 01 May 21 (01 03 06)"  -- used by backup system
+Log started on Sat May  1 01:03:06 2021
+Built on Apr 26 2021 08:17:15
+Running 64 bit version
+Executable: C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe
+FileVersion: 3.13.111.60211
+ProductVersion: 3.13.111.60211
+Using Microsoft (tm) C++ Standard Library implementation
+Host CPU: AMD Ryzen 5 5600X 6-Core Processor
+Logical CPU Count: 12
+[SessionIDManager] local session: 4de373bd-83db-4d6e-9332-49738d161b01
+<2021-04-30T23:03:07.781Z> GameDir: Data
+<2021-04-30T23:03:07.785Z> Windows 10 64 bit (build 10.0.19042)
+<2021-04-30T23:03:07.785Z> System language: English
+<2021-04-30T23:03:07.785Z> Windows Directory: "C:\Windows"
+<2021-04-30T23:03:07.787Z> Local time is 01:03:07 05/01/21, system running for 42 minutes
+<2021-04-30T23:03:07.787Z> 32690MB physical memory installed, 23512MB available, 28 percent of memory in use
+<2021-04-30T23:03:07.787Z> 492MB working set, 746MB commit size (1128MB peak), 51440MB left to commit (65458MB system wide commit limit)
+<2021-04-30T23:03:07.787Z> Current display mode is 2560x1440x32
+<2021-04-30T23:03:07.787Z> IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+<2021-04-30T23:03:07.787Z> [CIG] gEnv->IsDedicated[0] CSystem::m_bDedicatedServer[0] startupParams.bDedicatedServer[0]
+<2021-04-30T23:03:07.787Z> [CIG] startupParams.szSystemCmdLine[C:\Games\SC\Game\StarCitizen\LIVE\Bin64\StarCitizen.exe -no_login_dialog -no_login_dialog]
+<2021-04-30T23:03:07.790Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [sys_spec] is marked [Not Whitelisted] with a value of [0]; config file attempting to change to [-1] - IGNORING
+<2021-04-30T23:03:07.791Z> Stream Engine Initialization
+<2021-04-30T23:03:07.791Z> Branch: sc-alpha-3.13.0
+<2021-04-30T23:03:07.791Z> BuildDateStamp: Mon Apr 26 2021
+<2021-04-30T23:03:07.791Z> BuildTimeStamp: 08:41:19 AM CST
+<2021-04-30T23:03:07.791Z> Config: shipping
+<2021-04-30T23:03:07.791Z> Tag: public
+<2021-04-30T23:03:07.791Z> Changelist: 7334707
+<2021-04-30T23:03:07.791Z> ShelveCL: 0
+<2021-04-30T23:03:07.791Z> Video Capture initialization
+<2021-04-30T23:03:07.791Z> CIG Backend initialization
+<2021-04-30T23:03:07.793Z> [CIG] build_version[7334707]
+<2021-04-30T23:03:07.803Z> Physics initialization
+<2021-04-30T23:03:07.803Z> PHYSICS_ENABLE_DEBUG_VALIDATION is enabled
+<2021-04-30T23:03:07.804Z> <Audio>: AudioSystem initialization
+<2021-04-30T23:03:08.028Z> [Audio] Wwise Init : Output Buffer (1024 x 4) : API=Default
+<2021-04-30T23:03:08.046Z> Renderer initialization
+<2021-04-30T23:03:08.051Z> Logging video adapters:
+<2021-04-30T23:03:08.168Z> - NVIDIA GeForce RTX 2080 (vendor = 0x10de, device = 0x1e87)
+<2021-04-30T23:03:08.168Z>   - Adapter index: 0
+<2021-04-30T23:03:08.168Z>   - Dedicated video memory: 8010 MB
+<2021-04-30T23:03:08.168Z>   - Feature level: DX11 (SM 5.0)
+<2021-04-30T23:03:08.168Z>   - Displays connected: yes
+<2021-04-30T23:03:08.168Z>   - Suitable rendering device: yes
